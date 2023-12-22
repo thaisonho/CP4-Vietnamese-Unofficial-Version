@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> Book 1</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="chapter_1.html"><strong aria-hidden="true">1.1.</strong> 1. Introduction</a></li><li class="chapter-item expanded "><a href="chapter_2.html"><strong aria-hidden="true">1.2.</strong> 2. Data Structures and Libraries</a></li><li class="chapter-item expanded "><a href="chapter_3.html"><strong aria-hidden="true">1.3.</strong> 3. Problem Solving Paradigms</a></li><li class="chapter-item expanded "><a href="chapter_4.html"><strong aria-hidden="true">1.4.</strong> 4. Graph</a></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">2.</strong> Book 2</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="chapter_5.html"><strong aria-hidden="true">2.1.</strong> 5. Mathematics</a></li><li class="chapter-item expanded "><a href="chapter_6.html"><strong aria-hidden="true">2.2.</strong> 6. String Processing</a></li><li class="chapter-item expanded "><a href="chapter_7.html"><strong aria-hidden="true">2.3.</strong> 7. (Computational) Geometry</a></li><li class="chapter-item expanded "><a href="chapter_8.html"><strong aria-hidden="true">2.4.</strong> 8. More Advance Topics</a></li><li class="chapter-item expanded "><a href="chapter_9.html"><strong aria-hidden="true">2.5.</strong> 9. Rare Topics</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Home</a></li><li class="chapter-item expanded affix "><div>Book 1</div></li><li class="chapter-item expanded affix "><a href="chapter_1.html">1. Introduction</a></li><li class="chapter-item expanded affix "><a href="chapter_2.html">2. Data Structures and Libraries</a></li><li class="chapter-item expanded affix "><a href="chapter_3.html">3. Problem Solving Paradigms</a></li><li class="chapter-item expanded affix "><a href="chapter_4.html">4. Graph</a></li><li class="chapter-item expanded affix "><div>Book 2</div></li><li class="chapter-item expanded affix "><a href="chapter_5.html">5. Mathematics</a></li><li class="chapter-item expanded affix "><a href="chapter_6.html">6. String Processing</a></li><li class="chapter-item expanded affix "><a href="chapter_7.html">7. (Computational) Geometry</a></li><li class="chapter-item expanded affix "><a href="chapter_8.html">8. More Advance Topics</a></li><li class="chapter-item expanded affix "><a href="chapter_9.html">9. Rare Topics</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -174,7 +174,47 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="chapter-1"><a class="header" href="#chapter-1">Chapter 1</a></h1>
+                        <h1 id="tổng-quan"><a class="header" href="#tổng-quan">Tổng quan</a></h1>
+<hr />
+<p>Đây là một project phi lợi nhuận. Mục đích của project này là để cho người học lập trình nói chung và CP nói riêng có thể tiếp cận dễ dàng tới một trong những giáo trình CP nổi tiếng nhất trên thế giới.</p>
+<h1 id="về-giáo-trình"><a class="header" href="#về-giáo-trình">Về giáo trình</a></h1>
+<hr />
+<p><strong>Competitve Programming 4</strong> gồm <strong>9 chương</strong>, được chia làm 2 quyển (<em>Book 1</em> và <em>Book 2</em>). Giáo trình được biên soạn bởi <strong>Steven Halim</strong>, <strong>Felix Halim</strong> và <strong>Suhendry Effendy</strong>.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="chapter-1---introduction"><a class="header" href="#chapter-1---introduction">Chapter 1 - Introduction</a></h1>
+<blockquote>
+<p>Tôi muốn được tham dự kì thi ICPC World Finals!</p>
+</blockquote>
+<h2 id="lập-trình-thi-Đấu"><a class="header" href="#lập-trình-thi-Đấu">Lập Trình Thi Đấu</a></h2>
+<p>Cốt lõi của cụm từ &quot;Lập trình thi đấu&quot; đó chính là: &quot;Cho những bài toán đã biết về KHMT (Khoa học máy tính), hãy giải quyết các bài toán đó một cách nhanh (tối ưu) nhất!&quot;</p>
+<p>Chúng ta hãy tiến hành phân tích khái niệm trên thành từng phần. Đầu tiên, &quot;những bài toán đã biết về KHMT&quot; có nghĩa là trong lập trình thi đấu, chúng ta chỉ giải quyết các bài toán đã được biết chứ không phải nghiên cứu (<em>research</em>) những bài toán chưa biết câu trả lời. Sẽ có những người (ít nhất là tác giả của bài toán) đã từng giải những bài toán này rồi. Để &quot;giải quyết các bài toán&quot;, chúng ta cần phải sử dụng những kiến thức lập trình cần thiết để tạo ra mã nguồn để giải quyết vấn đề này - ít nhất là phải đưa ra đúng output mong muốn trong 1 khoảng thời gian được quy định. Tại sao &quot;một cách tối ưu nhất, nhanh nhất&quot; lại cần thiết đến vậy? Vì yếu tố tốc độ là yếu tố then chốt cấu thành nên tính chất &quot;thi đấu&quot; - tốc độ luôn là mục tiêu mà con người hướng đến.</p>
+<hr />
+<p>Ví dụ minh họa: UVa Online Judge [44] Problem Number 10911 (Forming Quiz Teams). Tóm lược bài toán:</p>
+<p>Điểm (x, y) là tọa độ của nhà riêng của học sinh trên mặt phẳng. Có 2<em>N</em> học sinh và chúng ta bắt cặp thành <em>N</em> nhóm. Gọi <em>d<sub>i</sub></em> là khoảng cách giữa 2 nhà của 2 học sinh trong nhóm <em>i</em>. Hãy tạo N nhóm sao cho tổng các khoảng cách là <strong>bé nhất</strong>. In ra kết quả là số float có 2 giá trị phần thập phân. Cho biết 1 ≤ <em>N</em> ≤ 8 và 0 ≤ <em>x, y</em> ≤ 1000.</p>
+<p><strong>Sample input</strong>:
+<em>N</em> = 2; Các tọa độ của 2N = 4 ngôi nhà là {1, 1}, {8, 6}, {6, 8} và {1, 3}.</p>
+<p><strong>Sample output</strong>:
+<em>chi phí</em> = 4.83</p>
+<p>Bạn có giải được bài toán này không?
+Nếu bạn giải được thì bạn nghĩ bạn sẽ mất bao nhiêu thời gian để code?
+Hãy thử suy nghĩ, đừng vội đọc tiếp!</p>
+<p><img src="./pic/%5B1%5D%20Steven%20Halim,%20Felix%20Halim,%20Suhendry%20Effendy%20-%20Competitive%20Programming%204%20-%20Book%201%201%20(2022,%20lulu)%20-%20libgen.jpg" alt="UVa 10911" /><em>Ảnh 1.1: Minh họa đề bài UVa 10911</em></p>
+<p>Và bây giờ bạn hãy tự nghĩ: Mô tả nào dưới đây đúng nhất về bạn? Lưu ý rằng nếu bạn còn cảm thấy mơ hồ về những nội dung và thuật ngữ được trình bày trong chương này, bạn hoàn toàn có thể quay trở lại sau khi hoàn thành quyển sách này.</p>
+<ul>
+<li>Lập trình viên A (Không lập trình thi đấu, gà mờ):</li>
+</ul>
+<p>Bước 1: Đọc bài toán và không hiểu gì cả (Đây là bài toán hoàn toàn mới đối với A).
+Bước 2: Thử code gì đó.
+Bước 3: A nhận ra rằng cả 2 ý tưởng sau đều không <strong>AC</strong>: <strong>Tham lam</strong> (Phần 3.4): Lặp đi lặp lại việc ghép đôi giữa 2 học sinh còn lại với khoảng cách ngắn nhất cho kết quả <strong>WA</strong>.
+<strong>Vét cạn</strong> ngây thơ: Sử dụng kĩ thuật quay lui đệ quy thử tất cả các trường hợp. Kết quả <strong>TLE</strong>.</p>
+<ul>
+<li>Lập trình viên B (Không lập trình thi đấu, bỏ cuộc):</li>
+</ul>
+<p>Bước 1: Đọc bài toán và nhận ra đây là một bài toán ghép cặp. Nhưng B chưa học cách giải các bài toán dạng này... B không nghĩ tới phương pháp <strong>Quy Hoạch Động (Dynamic Programming - DP)</strong> (Phần 3.5)...
+Bước 2: Bỏ qua bài toán làm bài khác.</p>
+<ul>
+<li>Lập trình viên C (Không lập trình thi đấu, làm chậm):</li>
+</ul>
+<p>Bước 1: Đọc bài toán và nhận ra đây là một bài toán khó dạng <strong>Cặp ghép hoàn hảo có trọng số nhỏ nhất trên đồ thị đầy đủ có trọng số</strong>. Tuy nhiên với input nhỏ, bài toán có thể giải quyết bằng DP. Bài toán con</p>
 <div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div><div style="break-before: page; page-break-before: always;"></div>
                     </main>
 
@@ -193,6 +233,22 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
