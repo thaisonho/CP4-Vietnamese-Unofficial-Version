@@ -9,3 +9,8 @@
 ---
 
 **Competitve Programming 4** gồm **9 chương**, được chia làm 2 quyển (*Book 1* và *Book 2*). Giáo trình được biên soạn bởi **Steven Halim**, **Felix Halim** và **Suhendry Effendy**.
+
+# Thông tin dịch giả
+
+---
+Jason Ho (Hồ Thái Sơn), VNUHCM-US.
