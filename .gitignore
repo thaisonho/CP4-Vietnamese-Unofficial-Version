@@ -1,0 +1,8 @@
+# Created by https://www.toptal.com/developers/gitignore/api/mdbook
+# Edit at https://www.toptal.com/developers/gitignore?templates=mdbook
+
+### MdBook ###
+book
+
+
+# End of https://www.toptal.com/developers/gitignore/api/mdbook
