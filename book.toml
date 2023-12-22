@@ -1,7 +1,0 @@
-[book]
-authors = ["Steven Halim", "Felix Halim", "Suhendry Effendy"]
-translator = ["Jason Ho"]
-language = "Vietnamese"
-multilingual = false
-src = "src"
-title = "Competitive Programming 4 - Unofficial Vietnamese Version"
