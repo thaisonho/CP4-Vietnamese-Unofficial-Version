@@ -191,19 +191,31 @@ Hãy thử suy nghĩ, đừng vội đọc tiếp!</p>
 <ul>
 <li>Lập trình viên A (Không lập trình thi đấu, gà mờ):</li>
 </ul>
-<p>Bước 1: Đọc bài toán và không hiểu gì cả (Đây là bài toán hoàn toàn mới đối với A).
-Bước 2: Thử code gì đó.
-Bước 3: A nhận ra rằng cả 2 ý tưởng sau đều không <strong>AC</strong>: <strong>Tham lam</strong> (Phần 3.4): Lặp đi lặp lại việc ghép đôi giữa 2 học sinh còn lại với khoảng cách ngắn nhất cho kết quả <strong>WA</strong>.
+<p>Bước 1: Đọc bài toán và không hiểu gì cả (Đây là bài toán hoàn toàn mới đối với A).</p>
+<p>Bước 2: Thử code gì đó.</p>
+<p>Bước 3: A nhận ra rằng cả 2 ý tưởng sau đều không <strong>AC</strong>: <strong>Tham lam</strong> (Phần 3.4): Lặp đi lặp lại việc ghép đôi giữa 2 học sinh còn lại với khoảng cách ngắn nhất cho kết quả <strong>WA</strong>.
 <strong>Vét cạn</strong> ngây thơ: Sử dụng kĩ thuật quay lui đệ quy thử tất cả các trường hợp. Kết quả <strong>TLE</strong>.</p>
 <ul>
 <li>Lập trình viên B (Không lập trình thi đấu, bỏ cuộc):</li>
 </ul>
-<p>Bước 1: Đọc bài toán và nhận ra đây là một bài toán ghép cặp. Nhưng B chưa học cách giải các bài toán dạng này... B không nghĩ tới phương pháp <strong>Quy Hoạch Động (Dynamic Programming - DP)</strong> (Phần 3.5)...
-Bước 2: Bỏ qua bài toán làm bài khác.</p>
+<p>Bước 1: Đọc bài toán và nhận ra đây là một bài toán ghép cặp. Nhưng B chưa học cách giải các bài toán dạng này... B không nghĩ tới phương pháp <strong>Quy Hoạch Động (Dynamic Programming - DP)</strong> (Phần 3.5)...</p>
+<p>Bước 2: Bỏ qua bài toán làm bài khác.</p>
 <ul>
 <li>Lập trình viên C (Không lập trình thi đấu, làm chậm):</li>
 </ul>
-<p>Bước 1: Đọc bài toán và nhận ra đây là một bài toán khó dạng <strong>Cặp ghép hoàn hảo có trọng số nhỏ nhất trên đồ thị đầy đủ có trọng số</strong>. Tuy nhiên với input nhỏ, bài toán có thể giải quyết bằng DP</p>
+<p>Bước 1: Đọc bài toán và nhận ra đây là một bài toán khó dạng <strong>Cặp ghép hoàn hảo có trọng số nhỏ nhất trên đồ thị đầy đủ có trọng số</strong>. Tuy nhiên với input nhỏ, bài toán có thể giải quyết bằng DP. Bài toán con DP là một <strong>bitmask</strong> thể hiện tính trạng ghép cặp, và việc ghép cặp những học sinh chưa được ghép cặp <em>i</em> và <em>j</em> sẽ làm cho bit <em>i</em>, <em>j</em> trong <strong>bitmask</strong> được bật lên (xem Book 2).</p>
+<p>Bước 2: Dựng code Nhập/Xuất, dựng Top/Down DP, chạy thử, <strong>debugs</strong> &gt;.&lt; ...</p>
+<p>Bước 3: <em>Sau 3 tiếng</em>, Code của C đã được AC.</p>
+<ul>
+<li>LTV D (Lập trình thi đấu):</li>
+</ul>
+<p>Làm tất cả các bước mà LTV C làm nhưng với thời gian nhanh hơn, ≤ 30 phút.</p>
+<ul>
+<li>LTV E (Lập trình thi đấu g0d):</li>
+</ul>
+<p>Trình rất pr0(rank Đỏ Codeforces). Solve &quot;bài toán phổ biến&quot; này trong ≤ 10 phút, ngoài ra, E còn biết những lời giải khác cho bài toán này và những biến thể (khó hơn) của bài toán...</p>
+<hr />
+<p>Nhưng bạn cũng nên nhớ rằng trở nên giỏi CP không phải là một đích đến, mà nó là một phương tiện để giúp bạn đạt được một điểm đích nào đó. Mục tiêu sau cuối của CP đó chính là tạo nên những nhà khoa học máy tính hoặc các lập trình viên toàn diện, có khả năng tạo ra những phần mềm tốt hơn cũng như là nghiên cứu những vấn đề KHMT trong tương lai. Đây cũng chính là một trong những mục tiêu mà kì thi IOI và đồng thời cũng là tầm nhìn của những nhà sáng lập kì thi ICPC hướng tới. Với quyển sách này, chúng ta đang góp những công sức nhỏ cho thế hệ hiện tại và tương lai phát huy truyền thống Competitive trong việc giải quyết các bài toán các kì thi IOIs và ICPCs.</p>
 
                     </main>
 
@@ -234,22 +246,6 @@ Bước 2: Bỏ qua bài toán làm bài khác.</p>
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script>
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 
