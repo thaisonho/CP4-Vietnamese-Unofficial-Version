@@ -1,7 +1,13 @@
 [book]
 authors = ["Steven Halim", "Felix Halim", "Suhendry Effendy"]
-translator = ["Jason Ho"]
 language = "Vietnamese"
 multilingual = false
 src = "src"
 title = "Competitive Programming 4 - Unofficial Vietnamese Version"
+
+[output.html]
+git-repository-url = "https://github.com/thaisonho/CP4-Vietnamese-Unofficial-Version"
+git-repository-icon = "fa-github"
+
+[output.html.playground]
+copyable = true          # include the copy button for copying code snippets
