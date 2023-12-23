@@ -1,4 +1,5 @@
 # Chapter 1 - Introduction
+>
 > Tôi muốn được tham dự kì thi ICPC World Finals!
 
 ## Lập Trình Thi Đấu
@@ -23,9 +24,10 @@ Bạn có giải được bài toán này không?
 Nếu bạn giải được thì bạn nghĩ bạn sẽ mất bao nhiêu thời gian để code?
 Hãy thử suy nghĩ, đừng vội đọc tiếp!
 
-![UVa 10911](./pic/[1]%20Steven%20Halim,%20Felix%20Halim,%20Suhendry%20Effendy%20-%20Competitive%20Programming%204%20-%20Book%201%201%20(2022,%20lulu)%20-%20libgen.jpg)*Ảnh 1.1: Minh họa đề bài UVa 10911*
+![UVa 10911](./pic/CP4_B1_F1_1.jpg)*Ảnh 1.1: Minh họa đề bài UVa 10911*
 
 Và bây giờ bạn hãy tự nghĩ: Mô tả nào dưới đây đúng nhất về bạn? Lưu ý rằng nếu bạn còn cảm thấy mơ hồ về những nội dung và thuật ngữ được trình bày trong chương này, bạn hoàn toàn có thể quay trở lại sau khi hoàn thành quyển sách này.
+
 * Lập trình viên A (Không lập trình thi đấu, gà mờ):
 
 Bước 1: Đọc bài toán và không hiểu gì cả (Đây là bài toán hoàn toàn mới đối với A).
