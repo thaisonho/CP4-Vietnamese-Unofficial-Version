@@ -1,6 +1,6 @@
 # CP4 Vietnamese Unofficial Version
 
-A unofficial Vietnamese version of Competitive Programming 4
+An unofficial Vietnamese version of Competitive Programming 4
 [Đọc tại đây](https://thaisonho.github.io/CP4-Vietnamese-Unofficial-Version/)
 
 ## Về quyển sách
