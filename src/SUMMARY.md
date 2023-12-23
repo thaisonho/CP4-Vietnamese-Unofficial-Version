@@ -1,7 +1,7 @@
 # Summary
 
 [Home](./README.md)
-**Book 1**
+
 - [Introduction](chapter_1.md)
   - [Competitive Programming](./contents/Chapter1/1_CompetitiveProgramming.md)
   - [The Competitions](./contents/Chapter1/2_TheCompetitions.md)
@@ -12,12 +12,12 @@
   - [Solutions to Non-Starred Exercises](./contents/Chapter1/7_SolToNonStarredExercises.md)
   - [Chapter Notes](./contents/Chapter1/8_ChapterNotes.md)
 - [Data Structures and Libraries](./chapter_2.md)
-    - [Overview and Motivation](./contents/Chapter2/1_OverviewAndMotivation.md)
-    - [Linear DS with Built-in Libraries](./contents/Chapter2/2_LinuearDS.md)
-    - [Non-Linear DS with Built-in Libraries](./contents/Chapter2/3_NonLinearDS.md)
-    - [DS with Our Own Libraries](./contents/Chapter2/4_DSwithOurOwnLib.md)
-    - [Solution to Non-Starred Exercises](./contents/Chapter2/5_SolToNonStarred.md)
-    - [Chapter Notes](./contents/Chapter2/6_ChapterNotes.md)
+  - [Overview and Motivation](./contents/Chapter2/1_OverviewAndMotivation.md)
+  - [Linear DS with Built-in Libraries](./contents/Chapter2/2_LinuearDS.md)
+  - [Non-Linear DS with Built-in Libraries](./contents/Chapter2/3_NonLinearDS.md)
+  - [DS with Our Own Libraries](./contents/Chapter2/4_DSwithOurOwnLib.md)
+  - [Solution to Non-Starred Exercises](./contents/Chapter2/5_SolToNonStarred.md)
+  - [Chapter Notes](./contents/Chapter2/6_ChapterNotes.md)
 - [Problem Solving Paradigms](./chapter_3.md)
 - [Graph](./chapter_4.md)
 - [Mathematics](./chapter_5.md)

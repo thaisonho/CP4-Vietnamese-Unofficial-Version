@@ -1,6 +1,7 @@
 # CP4 Vietnamese Unofficial Version
 
-A unofficial Vietnamese version of Competitive Programming 4
+An unofficial Vietnamese version of Competitive Programming 4
+
 [Đọc tại đây](https://thaisonho.github.io/CP4-Vietnamese-Unofficial-Version/)
 
 ## Về quyển sách
@@ -17,5 +18,9 @@ Mỗi lần đọc xong một phần của giáo trình, mình sẽ dịch sang 
 Do hiện tại mình là sinh viên không thể đảm bảo độ chính xác khi dịch thuật và cũng như không thể đều đặn đăng bài. Vì thế, nếu các bạn muốn đóng góp vào project thì hãy tạo một pull request nhé :D
 
 Đây chỉ là một dự án phi lợi nhuận, nếu có bất kì khiếu nại về vấn đề bản quyền nào, hãy email cho mình: <hothaison2005@gmail.com>
+
+## Build quyển sách này cho riêng bạn
+
+
 
 **Hãy mua bản PDF và ủng hộ tác giả tại link: <https://cpbook.net/>**

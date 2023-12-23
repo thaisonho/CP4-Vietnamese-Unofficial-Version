@@ -27,15 +27,34 @@ Và bây giờ bạn hãy tự nghĩ: Mô tả nào dưới đây đúng nhất 
 * Lập trình viên A (Không lập trình thi đấu, gà mờ):
 
 Bước 1: Đọc bài toán và không hiểu gì cả (Đây là bài toán hoàn toàn mới đối với A).
+
 Bước 2: Thử code gì đó.
+
 Bước 3: A nhận ra rằng cả 2 ý tưởng sau đều không **AC**: **Tham lam** (Phần 3.4): Lặp đi lặp lại việc ghép đôi giữa 2 học sinh còn lại với khoảng cách ngắn nhất cho kết quả **WA**.
 **Vét cạn** ngây thơ: Sử dụng kĩ thuật quay lui đệ quy thử tất cả các trường hợp. Kết quả **TLE**.
 
 * Lập trình viên B (Không lập trình thi đấu, bỏ cuộc):
 
 Bước 1: Đọc bài toán và nhận ra đây là một bài toán ghép cặp. Nhưng B chưa học cách giải các bài toán dạng này... B không nghĩ tới phương pháp **Quy Hoạch Động (Dynamic Programming - DP)** (Phần 3.5)...
+
 Bước 2: Bỏ qua bài toán làm bài khác.
 
 * Lập trình viên C (Không lập trình thi đấu, làm chậm):
 
-Bước 1: Đọc bài toán và nhận ra đây là một bài toán khó dạng **Cặp ghép hoàn hảo có trọng số nhỏ nhất trên đồ thị đầy đủ có trọng số**. Tuy nhiên với input nhỏ, bài toán có thể giải quyết bằng DP
+Bước 1: Đọc bài toán và nhận ra đây là một bài toán khó dạng **Cặp ghép hoàn hảo có trọng số nhỏ nhất trên đồ thị đầy đủ có trọng số**. Tuy nhiên với input nhỏ, bài toán có thể giải quyết bằng DP. Bài toán con DP là một **bitmask** thể hiện tính trạng ghép cặp, và việc ghép cặp những học sinh chưa được ghép cặp *i* và *j* sẽ làm cho bit *i*, *j* trong **bitmask** được bật lên (xem Book 2).
+
+Bước 2: Dựng code Nhập/Xuất, dựng Top/Down DP, chạy thử, **debugs** >.< ...
+
+Bước 3: *Sau 3 tiếng*, Code của C đã được AC.
+
+* LTV D (Lập trình thi đấu):
+
+Làm tất cả các bước mà LTV C làm nhưng với thời gian nhanh hơn, &le; 30 phút.
+
+* LTV E (Lập trình thi đấu g0d):
+
+Trình rất pr0(rank Đỏ Codeforces). Solve "bài toán phổ biến" này trong &le; 10 phút, ngoài ra, E còn biết những lời giải khác cho bài toán này và những biến thể (khó hơn) của bài toán...
+
+---
+
+Nhưng bạn cũng nên nhớ rằng trở nên giỏi CP không phải là một đích đến, mà nó là một phương tiện để giúp bạn đạt được một điểm đích nào đó. Mục tiêu sau cuối của CP đó chính là tạo nên những nhà khoa học máy tính hoặc các lập trình viên toàn diện, có khả năng tạo ra những phần mềm tốt hơn cũng như là nghiên cứu những vấn đề KHMT trong tương lai. Đây cũng chính là một trong những mục tiêu mà kì thi IOI và đồng thời cũng là tầm nhìn của những nhà sáng lập kì thi ICPC hướng tới. Với quyển sách này, chúng ta đang góp những công sức nhỏ cho thế hệ hiện tại và tương lai phát huy truyền thống Competitive trong việc giải quyết các bài toán các kì thi IOIs và ICPCs.
