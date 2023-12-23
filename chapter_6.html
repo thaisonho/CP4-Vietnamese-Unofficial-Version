@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>6. String Processing - Competitive Programming 4 - Unofficial Vietnamese Version</title>
+        <title>String Processing - Competitive Programming 4 - Unofficial Vietnamese Version</title>
 
 
         <!-- Custom HTML head -->
@@ -88,7 +88,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Home</a></li><li class="chapter-item expanded affix "><div>Book 1</div></li><li class="chapter-item expanded affix "><a href="chapter_1.html">1. Introduction</a></li><li class="chapter-item expanded affix "><a href="chapter_2.html">2. Data Structures and Libraries</a></li><li class="chapter-item expanded affix "><a href="chapter_3.html">3. Problem Solving Paradigms</a></li><li class="chapter-item expanded affix "><a href="chapter_4.html">4. Graph</a></li><li class="chapter-item expanded affix "><div>Book 2</div></li><li class="chapter-item expanded affix "><a href="chapter_5.html">5. Mathematics</a></li><li class="chapter-item expanded affix "><a href="chapter_6.html" class="active">6. String Processing</a></li><li class="chapter-item expanded affix "><a href="chapter_7.html">7. (Computational) Geometry</a></li><li class="chapter-item expanded affix "><a href="chapter_8.html">8. More Advance Topics</a></li><li class="chapter-item expanded affix "><a href="chapter_9.html">9. Rare Topics</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Home</a></li><li class="chapter-item expanded "><a href="chapter_1.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="contents/Chapter1/1_CompetitiveProgramming.html"><strong aria-hidden="true">1.1.</strong> Competitive Programming</a></li><li class="chapter-item expanded "><a href="contents/Chapter1/2_TheCompetitions.html"><strong aria-hidden="true">1.2.</strong> The Competitions</a></li><li class="chapter-item expanded "><a href="contents/Chapter1/3_TipsToBeCompetitive.html"><strong aria-hidden="true">1.3.</strong> Tips to be Competitive</a></li><li class="chapter-item expanded "><a href="contents/Chapter1/4_GettingStarted.html"><strong aria-hidden="true">1.4.</strong> Getting Started: The Easy Problems</a></li><li class="chapter-item expanded "><a href="contents/Chapter1/5_BasicString.html"><strong aria-hidden="true">1.5.</strong> Basic String Processing Skills</a></li><li class="chapter-item expanded "><a href="contents/Chapter1/6_TheAdHocProbs.html"><strong aria-hidden="true">1.6.</strong> The Ad Hoc Problems</a></li><li class="chapter-item expanded "><a href="contents/Chapter1/7_SolToNonStarredExercises.html"><strong aria-hidden="true">1.7.</strong> Solutions to Non-Starred Exercises</a></li><li class="chapter-item expanded "><a href="contents/Chapter1/8_ChapterNotes.html"><strong aria-hidden="true">1.8.</strong> Chapter Notes</a></li></ol></li><li class="chapter-item expanded "><a href="chapter_2.html"><strong aria-hidden="true">2.</strong> Data Structures and Libraries</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="contents/Chapter2/1_OverviewAndMotivation.html"><strong aria-hidden="true">2.1.</strong> Overview and Motivation</a></li><li class="chapter-item expanded "><a href="contents/Chapter2/2_LinuearDS.html"><strong aria-hidden="true">2.2.</strong> Linear DS with Built-in Libraries</a></li><li class="chapter-item expanded "><a href="contents/Chapter2/3_NonLinearDS.html"><strong aria-hidden="true">2.3.</strong> Non-Linear DS with Built-in Libraries</a></li><li class="chapter-item expanded "><a href="contents/Chapter2/4_DSwithOurOwnLib.html"><strong aria-hidden="true">2.4.</strong> DS with Our Own Libraries</a></li><li class="chapter-item expanded "><a href="contents/Chapter2/5_SolToNonStarred.html"><strong aria-hidden="true">2.5.</strong> Solution to Non-Starred Exercises</a></li><li class="chapter-item expanded "><a href="contents/Chapter2/6_ChapterNotes.html"><strong aria-hidden="true">2.6.</strong> Chapter Notes</a></li></ol></li><li class="chapter-item expanded "><a href="chapter_3.html"><strong aria-hidden="true">3.</strong> Problem Solving Paradigms</a></li><li class="chapter-item expanded "><a href="chapter_4.html"><strong aria-hidden="true">4.</strong> Graph</a></li><li class="chapter-item expanded "><a href="chapter_5.html"><strong aria-hidden="true">5.</strong> Mathematics</a></li><li class="chapter-item expanded "><a href="chapter_6.html" class="active"><strong aria-hidden="true">6.</strong> String Processing</a></li><li class="chapter-item expanded "><a href="chapter_7.html"><strong aria-hidden="true">7.</strong> (Computational) Geometry</a></li><li class="chapter-item expanded "><a href="chapter_8.html"><strong aria-hidden="true">8.</strong> More Advance Topics</a></li><li class="chapter-item expanded "><a href="chapter_9.html"><strong aria-hidden="true">9.</strong> Rare Topics</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -203,6 +203,22 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
